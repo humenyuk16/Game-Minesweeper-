@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="game-container">
+        <header class="game-panel">
+          <h1>Game Board</h1>
+          <div class="score">
+            <span>SCORE</span>
+            <span class="score-counter">00000</span>
+          </div>
+        </header>
+        <main class="game-board">
+          <div class="grid"></div>
+
+          <div class="end-game-screen hidden">
+            <h2 class="end-game-text">
+              Game<br />
+              Over
+            </h2>
+            <button class="restart-btn">Play Again</button>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
